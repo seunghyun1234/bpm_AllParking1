@@ -9,4 +9,18 @@ public class HomeController {
     public String index(){
         return "index";
     }
+    @GetMapping("/me")
+    public String me(){
+        return "me";
+
+    }
+    @GetMapping("/team")
+    public String team(){
+        return "team";
+    }
+    @GetMapping("/location")
+    public String location(){
+        return "location";
+    }
+
 }
